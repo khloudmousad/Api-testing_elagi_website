@@ -225,7 +225,7 @@
 							"let response = pm.response.json();      // response = كامل JSON\r",
 							"            // احفظي قيمة token\r",
 							"pm.environment.set(\"mytoken\", response.token);   // خزنيها في environment variable\r",
-							"console.log(token);"
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}
