@@ -2319,7 +2319,30 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://elagi.semicorner.com/api/medicines?page=1&sort=\n",
+					"protocol": "https",
+					"host": [
+						"elagi",
+						"semicorner",
+						"com"
+					],
+					"path": [
+						"api",
+						"medicines"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "sort",
+							"value": "\n"
+						}
+					]
+				}
 			},
 			"response": []
 		}
