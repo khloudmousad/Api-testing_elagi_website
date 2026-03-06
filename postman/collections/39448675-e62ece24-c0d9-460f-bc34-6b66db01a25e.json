@@ -1285,7 +1285,7 @@
 						"id": "e336c29e-b7e3-4efd-ad5f-04136845222a",
 						"exec": [
 							"pm.globals.set(\"derma_id\",pm.response.json().id);\r",
-							"console.log(derma_id);\r",
+							"console.log(pm.response);\r",
 							""
 						],
 						"type": "text/javascript",
