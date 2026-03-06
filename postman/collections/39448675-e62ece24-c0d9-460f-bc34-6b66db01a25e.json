@@ -222,6 +222,9 @@
 					"script": {
 						"id": "2e02530d-0d42-4c53-ac16-db6ed29df268",
 						"exec": [
+							"\r",
+							"token=pm.environment.get(\"token\");\r",
+							"pm.environment.set(\"mytoken\", token);\r",
 							""
 						],
 						"type": "text/javascript",
