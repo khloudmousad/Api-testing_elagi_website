@@ -1534,7 +1534,7 @@
 					},
 					{
 						"key": "authorization",
-						"value": " {{mytoken}}"
+						"value": "Bearer {{mytoken}}"
 					},
 					{
 						"key": "cookie",
@@ -1579,7 +1579,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"product_id\":1319}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
