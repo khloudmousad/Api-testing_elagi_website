@@ -1284,7 +1284,7 @@
 					"script": {
 						"id": "e336c29e-b7e3-4efd-ad5f-04136845222a",
 						"exec": [
-							"pm.environment.set(\"derma_id\",pm.response.json().id);\r",
+							"pm.globals.set(\"derma_id\",pm.response.json().id);\r",
 							""
 						],
 						"type": "text/javascript",
