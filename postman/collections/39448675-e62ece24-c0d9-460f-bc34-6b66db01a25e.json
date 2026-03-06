@@ -224,7 +224,7 @@
 						"exec": [
 							"\r",
 							"\r",
-							"let token =pm.response.json.token;\r",
+							"let token =pm.response.body.json.token;\r",
 							"pm.environment.set(\"mytoken\", token);\r",
 							"console.log(token);"
 						],
