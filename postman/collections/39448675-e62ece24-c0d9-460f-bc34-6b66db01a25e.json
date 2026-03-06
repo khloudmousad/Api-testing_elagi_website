@@ -226,7 +226,7 @@
 							"\r",
 							"let response =pm.response.json;\r",
 							"pm.environment.set(\"mytoken\", response.token);\r",
-							"console.log(token);"
+							"console.log(mytoken);"
 						],
 						"type": "text/javascript",
 						"packages": {}
