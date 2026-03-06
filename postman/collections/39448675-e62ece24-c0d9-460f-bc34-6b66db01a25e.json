@@ -1492,7 +1492,7 @@
 							"\r",
 							"let firstId = response[0].id; // Get the first id\r",
 							"let secondId = response[1].id; // Get the second id\r",
-							"pm.expect(firstId).to.equal(dermaid);\r",
+							"pm.expect(firstId).to.equal(derma_id);\r",
 							"\r",
 							"console.log(\"First ID is: \" + firstId+\"the second id is  \"+secondId); // Log the value for debugging\r",
 							"\r",
