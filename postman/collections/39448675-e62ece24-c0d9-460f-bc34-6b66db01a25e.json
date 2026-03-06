@@ -1284,8 +1284,6 @@
 					"script": {
 						"id": "e336c29e-b7e3-4efd-ad5f-04136845222a",
 						"exec": [
-							"pm.globals.set(\"derma_id\",pm.response.json().id);\r",
-							"console.log(pm.response);\r",
 							""
 						],
 						"type": "text/javascript",
@@ -1387,7 +1385,7 @@
 					"script": {
 						"id": "9e6a49c1-1f15-4290-b046-71cd558a2d20",
 						"exec": [
-							"pm.environment.set(\"elica_id\",pm.response.json().id);"
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}
